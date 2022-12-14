@@ -4,7 +4,9 @@ st.set_page_config(page_title="Analyste", page_icon="📄", layout="wide")
 st.header("Analyste")
  
 st.markdown(
-"""#### 📄 Exraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
+"""
+# Toutes industries
+#### 📄 Exraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
 ###### 1. Stockage de factures au format PDF dans un stage interne de Snowflake
 ###### 2. Extraction des informations contenues dans chaque facture (adresse, nom du client, montant de chaque ligne)
 ###### 3. Aggrégation des ventes par jour et par adresse
@@ -16,7 +18,8 @@ st.write("[Video](https://drive.google.com/file/d/15o881bYeTa4Sgdk89QFRgBlVllcUK
 st.write("[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)")
 
 st.markdown(
-"""#### 📈 Snowsight
+"""
+#### 📈 Snowsight
 ###### 1. Découvrez la nouvelle interface Web de Snowflake : Snowsight
 ###### 2. Accéder aux données sur Snowflake en SQL
 ###### 3. Créer des graphes et des tableaux de bord sur base de requêtes SQL
@@ -24,3 +27,12 @@ st.markdown(
 ###### 5. Monitorer l'usage de la plateforme 
 """)
 st.write("[Video](https://drive.google.com/file/d/167jj-D5iGkB3C17d0AbARIHSfPQYbGVU/view?usp=share_link)")  
+
+st.markdown(
+"""
+# Healthcare et Life sciences
+#### 💊 HL7 
+###### 1. importez des données au format HL7 dans Snowflake
+###### 2. Utilisez toutes les données directement dans des analyses et tableaux de bord
+""")
+st.write("[Video](https://drive.google.com/file/d/15lwfnn-fWdOQu4nadMtOqL5Vj385uUMG/view?usp=share_link)")  
