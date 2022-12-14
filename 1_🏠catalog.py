@@ -14,6 +14,5 @@ st.markdown(
 - 🌍 Data Engineer : Utilise Snowflake pour préparer des données afin qu'elles puissent être analysées. Intéressé par la facilité d'utilisation et l'optimisation de performance.
 - ⚛️ Data Scientist : Utilise Snowflake pour créer des modèles analytiques et prédictifs. Intéressé par l'accès centralisé à toutes les données nécessaires, la gouvernance des données et la création de modèles en plusieurs languages.
 
-contact : maxime.simon@snowflake.com
-[source sur Github](https://github.com/sfc-gh-msimon/demo-catalog)
+contact : maxime.simon@snowflake.com                       [source sur Github](https://github.com/sfc-gh-msimon/demo-catalog)
 """)
