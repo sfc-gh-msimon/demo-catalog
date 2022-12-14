@@ -25,26 +25,26 @@ st.markdown(
 3. Créer des graphes et des tableaux de bord sur base de requêtes SQL
 4. Administrer la plateforme Snowflake et auditer les accès aux données
 5. Monitorer l'utilisation de la plateforme 
+- [Video](https://drive.google.com/file/d/167jj-D5iGkB3C17d0AbARIHSfPQYbGVU/view?usp=share_link)
 """)
-st.write("[Video](https://drive.google.com/file/d/167jj-D5iGkB3C17d0AbARIHSfPQYbGVU/view?usp=share_link)")  
 
 st.markdown(
 """
 #### 📈 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP
-######## 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
-####### 2. Accéder aux données sur Snowflake en SQL
-###### 3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
-###### 4. Visualiser les résultats avec Tableau
-""")
-st.write("[Video](https://drive.google.com/file/d/16qtPbJqYT4Rq7m7dWyiH-L1bcXkrtk6t/view?usp=share_link)")  
-st.write("[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)")
-st.write("[Quickstart](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)")  
+1. Extraire des données de systèmes SAP et les insérer sur Snowflake
+2. Accéder aux données sur Snowflake en SQL
+3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
+4. Visualiser les résultats avec Tableau
+- [Video](https://drive.google.com/file/d/16qtPbJqYT4Rq7m7dWyiH-L1bcXkrtk6t/view?usp=share_link)
+- [Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)
+- [Quickstart](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
+""") 
 
 st.markdown(
 """
 # Healthcare et Life sciences
 #### 💊 HL7 
-###### 1. importez des données au format HL7 dans Snowflake
-###### 2. Utilisez toutes les données directement dans des analyses et tableaux de bord
+1. importez des données au format HL7 dans Snowflake
+2. Utilisez toutes les données directement dans des analyses et tableaux de bord
+- [Video](https://drive.google.com/file/d/15lwfnn-fWdOQu4nadMtOqL5Vj385uUMG/view?usp=share_link)
 """)
-st.write("[Video](https://drive.google.com/file/d/15lwfnn-fWdOQu4nadMtOqL5Vj385uUMG/view?usp=share_link)")  
