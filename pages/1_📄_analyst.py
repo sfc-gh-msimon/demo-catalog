@@ -13,8 +13,8 @@ st.markdown(
 4. Acquisition du dataset COVID-19 offert par StarSchema sur la marketplace de Snowflake
 5. Création d'une carte qui joint les ventes par état avec le nombre de cas COVID-19 confirmés par état
 6. Création d'un modèle qui prédit les ventes par jour dans les 90 prochains jours sur base des ventes passées.
-[Video](https://drive.google.com/file/d/15o881bYeTa4Sgdk89QFRgBlVllcUKYqY/view?usp=share_link)
-[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
+- [Video](https://drive.google.com/file/d/15o881bYeTa4Sgdk89QFRgBlVllcUKYqY/view?usp=share_link)
+- [Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
 """)
 
 st.markdown(
