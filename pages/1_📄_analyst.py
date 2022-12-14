@@ -14,3 +14,13 @@ st.markdown(
 """)
 st.write("[Video](https://drive.google.com/file/d/15o881bYeTa4Sgdk89QFRgBlVllcUKYqY/view?usp=share_link)")  
 st.write("[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)")
+
+st.markdown(
+"""#### 📈 Snowsight
+###### 1. Découvrez la nouvelle interface Web de Snowflake : Snowsight
+###### 2. Accéder aux données sur Snowflake en SQL
+###### 3. Créer des graphes et des tableaux de bord sur base de requêtes SQL
+###### 4. Administrer la plateforme Snowflake et auditer les accès aux données
+###### 5. Monitorer l'usage de la plateforme 
+""")
+st.write("[Video](https://drive.google.com/file/d/167jj-D5iGkB3C17d0AbARIHSfPQYbGVU/view?usp=share_link)")  
