@@ -1,5 +1,1 @@
 # requirements.txt
-snowflake-connector-python
-statsmodels
-snowflake-snowpark-python
-pybase64
