@@ -1,8 +1,5 @@
-altair
-vega-datasets
-pandas
-google-api-python-client
-google-auth
-google-auth-httplib2
-protobuf
-click==8
+# requirements.txt
+snowflake-connector-python
+statsmodels
+snowflake-snowpark-python
+pybase64
