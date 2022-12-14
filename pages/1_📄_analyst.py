@@ -20,19 +20,19 @@ st.write("[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)")
 st.markdown(
 """
 #### 📈 Snowsight
-###### 1. Découvrez la nouvelle interface Web de Snowflake : Snowsight
-###### 2. Accéder aux données sur Snowflake en SQL
-###### 3. Créer des graphes et des tableaux de bord sur base de requêtes SQL
-###### 4. Administrer la plateforme Snowflake et auditer les accès aux données
-###### 5. Monitorer l'utilisation de la plateforme 
+1. Découvrez la nouvelle interface Web de Snowflake : Snowsight
+2. Accéder aux données sur Snowflake en SQL
+3. Créer des graphes et des tableaux de bord sur base de requêtes SQL
+4. Administrer la plateforme Snowflake et auditer les accès aux données
+5. Monitorer l'utilisation de la plateforme 
 """)
 st.write("[Video](https://drive.google.com/file/d/167jj-D5iGkB3C17d0AbARIHSfPQYbGVU/view?usp=share_link)")  
 
 st.markdown(
 """
 #### 📈 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP
-###### 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
-###### 2. Accéder aux données sur Snowflake en SQL
+######## 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
+####### 2. Accéder aux données sur Snowflake en SQL
 ###### 3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
 ###### 4. Visualiser les résultats avec Tableau
 """)
