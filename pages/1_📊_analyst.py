@@ -1,5 +1,20 @@
 import streamlit as st
+from annotated_text import annotated_text
 
+annotated_text(
+    "This ",
+    ("is", "verb"),
+    " some ",
+    ("annotated", "adj"),
+    ("text", "noun"),
+    " for those of ",
+    ("you", "pronoun"),
+    " who ",
+    ("like", "verb"),
+    " this sort of ",
+    ("thing", "noun"),
+    "."
+)
 st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
 st.header("Analyste")
  
