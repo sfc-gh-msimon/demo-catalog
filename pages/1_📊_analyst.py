@@ -3,16 +3,16 @@ from annotated_text import annotated_text
 
 annotated_text(
     "This ",
-    ("is", "verb"),
+    ("is 🧾", "verb", "#8ef"),
     " some ",
-    ("annotated", "adj"),
-    ("text", "noun"),
+    ("annotated", "adj 🧾", "#faa"),
+    ("text", "noun", "#afa"),
     " for those of ",
-    ("you", "pronoun"),
+    ("you", "pronoun", "#fea"),
     " who ",
-    ("like", "verb"),
+    ("like", "verb", "#8ef"),
     " this sort of ",
-    ("thing", "noun"),
+    ("thing", "noun", "#afa"),
     "."
 )
 st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
