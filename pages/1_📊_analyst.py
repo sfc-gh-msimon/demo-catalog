@@ -1,6 +1,9 @@
 import streamlit as st
 from annotated_text import annotated_text
 
+st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
+st.header("Analyste")
+ 
 annotated_text(
     "This ",
     ("is 🧾", "verb", "#8ef"),
@@ -15,10 +18,6 @@ annotated_text(
     ("thing", "noun", "#afa"),
     "."
 )
-st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
-st.header("Analyste")
- 
-
 """
 # Toutes industries
 #### 🧾 Exraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
