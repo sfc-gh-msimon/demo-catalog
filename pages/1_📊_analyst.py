@@ -4,15 +4,14 @@ from annotated_text import annotated_text
 st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
 
 '''
-#### 🧾 Exraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
+#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
 '''
 annotated_text(
-    ("Any", "Industrie", "#8ef","#000000"),
-    ("annotated", "adj 🧾", "#faa"),
-    ("text", "noun", "#afa"),
-    ("you", "pronoun", "#fea"),
-    ("like", "verb", "#8ef"),
-    ("thing", "noun", "#afa")
+    ("Any",             "Industrie",        "#8ef","#000000"),
+    ("PDF",             "Non-structuré",    "#faa","#000000"),
+    ("Marketplace",     "Feature",          "#afa","#000000"),
+    ("Snowpark Python", "Feature",          "#fea","#000000"),
+    ("Streamlit",       "Front-end",        "#8ef","#000000")
 )
 '''
 [Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
@@ -22,9 +21,8 @@ annotated_text(
 4. Acquisition du dataset COVID-19 offert par StarSchema sur la marketplace de Snowflake
 5. Création d'une carte qui joint les ventes par état avec le nombre de cas COVID-19 confirmés par état
 6. Création d'un modèle qui prédit les ventes par jour dans les 90 prochains jours sur base des ventes passées.
-- [Video 16 min](https://drive.google.com/file/d/15o881bYeTa4Sgdk89QFRgBlVllcUKYqY/view?usp=share_link)
-- [Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
 '''
+st.video('https://youtu.be/SZGiYnC20v0')
 
 
 '''
