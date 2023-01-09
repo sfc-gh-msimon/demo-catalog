@@ -7,15 +7,15 @@ st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
 #### 🧾 Exraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
 '''
 annotated_text(
-    ("Any", "Industrie", "#8ef"),
+    ("Any", "Industrie", "#8ef","#000000"),
     ("annotated", "adj 🧾", "#faa"),
     ("text", "noun", "#afa"),
     ("you", "pronoun", "#fea"),
     ("like", "verb", "#8ef"),
-    ("thing", "noun", "#afa"),
-    '''[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)'''
+    ("thing", "noun", "#afa")
 )
 '''
+[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
 1. Stockage de factures au format PDF dans un stage interne de Snowflake
 2. Extraction des informations contenues dans chaque facture (adresse, nom du client, montant de chaque ligne)
 3. Aggrégation des ventes par jour et par adresse
