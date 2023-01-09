@@ -12,7 +12,8 @@ annotated_text(
     ("text", "noun", "#afa"),
     ("you", "pronoun", "#fea"),
     ("like", "verb", "#8ef"),
-    ("thing", "noun", "#afa")
+    ("thing", "noun", "#afa"),
+    '''[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)'''
 )
 '''
 1. Stockage de factures au format PDF dans un stage interne de Snowflake
