@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
 st.header("Analyste")
  
-st.markdown(
+
 """
 # Toutes industries
 #### 🧾 Exraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
@@ -15,8 +15,8 @@ st.markdown(
 6. Création d'un modèle qui prédit les ventes par jour dans les 90 prochains jours sur base des ventes passées.
 - [Video 16 min](https://drive.google.com/file/d/15o881bYeTa4Sgdk89QFRgBlVllcUKYqY/view?usp=share_link)
 - [Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
-
-
+"""
+"""
 ### 📊 Snowsight
 1. Découvrez la nouvelle interface Web de Snowflake : Snowsight
 2. Accéder aux données sur Snowflake en SQL
@@ -24,8 +24,8 @@ st.markdown(
 4. Administrer la plateforme Snowflake et auditer les accès aux données
 5. Monitorer l'utilisation de la plateforme 
 - [Video 20 min](https://drive.google.com/file/d/167jj-D5iGkB3C17d0AbARIHSfPQYbGVU/view?usp=share_link) [Video 3 min](https://drive.google.com/drive/folders/1VJzhPg5rrDCpwirH2SQta_JzeZudvX4y)
-
-
+"""
+"""
 ### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP
 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
 2. Accéder aux données sur Snowflake en SQL
@@ -34,8 +34,8 @@ st.markdown(
 - [Video 23 min](https://drive.google.com/file/d/16qtPbJqYT4Rq7m7dWyiH-L1bcXkrtk6t/view?usp=share_link)
 - [Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)
 - [Quickstart SAP](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
-
-
+"""
+"""
 ### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.
 1. Créer un tableau de bord dans l'interface Snowsight
 2. Acquérir des données sur la marketplace de Snowflake : climat et COVID-19
@@ -44,16 +44,11 @@ st.markdown(
 5. Visualiser le résultat sur une carte dans Dataiku
 - [Video 6min](https://drive.google.com/file/d/15mHw_r2EUxqMyZdvd60SR3KfyKehJy6N/view?usp=share_link)
 - [Quickstart Accelerating Data Science with Snowflake and Dataiku](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)
-
-
-""")
-
-
-st.markdown(
+"""
 """
 # Healthcare et Life sciences
 ### 💊 HL7 
 1. importez des données au format HL7 dans Snowflake
 2. Utilisez toutes les données directement dans des analyses et tableaux de bord
 - [Video 8min](https://drive.google.com/file/d/15lwfnn-fWdOQu4nadMtOqL5Vj385uUMG/view?usp=share_link)
-""")
+"""

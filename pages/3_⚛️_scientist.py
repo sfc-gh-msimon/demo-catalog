@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Data scientist", page_icon="⚛️", layout="wide")
 st.header("Data scientist")
 
-st.markdown(
+
 """
 # Toutes industries
 #### 🎥 Movies analysis
@@ -15,11 +15,10 @@ st.markdown(
 
 ### 👩‍👩‍👧‍👦 Master data management : entity matching avec TF-IDF
 - [Video 16 min](https://drive.google.com/file/d/16ahsm-00jimRr6A5Un_LfKh9wyMnU6FM/view?usp=share_link)
-""")
+"""
 
-st.markdown(
 """
 # Retail
 ### 🥷🏻 Détection de fraudes 
 - [Video 16 min](https://drive.google.com/file/d/15vGZxInFU0Fy8jOLrSZOl5PjxaRZxocB/view?usp=share_link)
-""")
+"""
