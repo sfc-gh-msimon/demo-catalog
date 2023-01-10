@@ -8,13 +8,13 @@ st.title("Catalogue de démos de Snowflake❄️")
 st.sidebar.info("Trouvez un asset en fonction de votre usage de la plateforme.")
 
 annotated_text(
-    "Les assets sont classés par persona et taggés en fonction de leur contenu :",
+    "Les assets sont classés par persona et taggés en fonction de leur ",
     ("Industrie",       "Industrie",        "#8ef","#000000"),
     ("Feature",         "Feature",          "#afa","#000000"),
     ("Snowsight",       "Front-end",        "#8ef","#000000")
 )
 """
-#### Chaque démo est présentée en vidéo, accompagnée de scripts SQL et/ou Python.
+Chaque démo est présentée en vidéo. Quand il y a un lien public, elle est accompagnée de scripts sur Github et de Quickstart.
 - 📄 __Analyste__ : Utilise Snowflake pour répondre à des questions. Intéressé par comment Snowflake résout des problèmes émanant des métiers.
 - 🌍 __Data Engineer__ : Utilise Snowflake pour préparer des données afin qu'elles puissent être analysées. Intéressé par la facilité d'utilisation et l'optimisation de performance.
 - ⚛️ __Data Scientist__ : Utilise Snowflake pour créer des modèles analytiques et prédictifs. Intéressé par l'accès centralisé à toutes les données nécessaires, la gouvernance des données et la création de modèles en plusieurs languages.

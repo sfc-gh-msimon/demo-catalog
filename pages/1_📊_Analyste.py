@@ -5,12 +5,12 @@ st.set_page_config(page_title="Analyste", page_icon="📊")
 
 '#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes'
 annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000000"),
-    ("Factures PDF",    "Données",          "#faa","#000000"),
-    ("CRM Parquet",     "Données",          "#faa","#000000"),
-    ("Marketplace",     "Feature",          "#afa","#000000"),
-    ("Snowpark Python", "Feature",          "#fea","#000000"),
-    ("Streamlit",       "Front-end",        "#8ef","#000000")
+    ("Any",             "Industrie",        "#8ef","#000"),
+    ("Factures PDF",    "Données",          "#faa","#000"),
+    ("CRM Parquet",     "Données",          "#faa","#000"),
+    ("Marketplace",     "Feature",          "#fea","#000"),
+    ("Snowpark Python", "Feature",          "#fea","#000"),
+    ("Streamlit",       "Front-end",        "#afa","#000")
 )
 '''
 [Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
