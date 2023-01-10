@@ -8,7 +8,7 @@ st.title("Catalogue de démos de Snowflake❄️")
 st.sidebar.info("Trouvez un asset en fonction de votre usage de la plateforme.")
 
 annotated_text(
-    "Les assets sont classés par persona et taggés en fonction de leur contenu :"
+    "Les assets sont classés par persona et taggés en fonction de leur contenu :",
     ("Industrie",       "Industrie",        "#8ef","#000000"),
     ("Feature",         "Feature",          "#afa","#000000"),
     ("Snowsight",       "Front-end",        "#8ef","#000000")
