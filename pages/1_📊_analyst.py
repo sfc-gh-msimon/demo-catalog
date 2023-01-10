@@ -1,7 +1,7 @@
 import streamlit as st
 from annotated_text import annotated_text
 
-st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Analyste", page_icon="📊")
 
 '#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes'
 annotated_text(
