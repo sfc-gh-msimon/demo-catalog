@@ -3,9 +3,7 @@ from annotated_text import annotated_text
 
 st.set_page_config(page_title="Analyste", page_icon="📊", layout="wide")
 
-'''
-#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
-'''
+'#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes'
 annotated_text(
     ("Any",             "Industrie",        "#8ef","#000000"),
     ("PDF",             "Non-structuré",    "#faa","#000000"),
@@ -25,9 +23,7 @@ annotated_text(
 st.video('https://youtu.be/SZGiYnC20v0')
 
 
-'''
-### 📊 Snowsight
-'''
+'### 📊 Snowsight'
 annotated_text(
     ("Any", "Industrie", "#8ef"),
     ("annotated", "adj 🧾", "#faa"),
@@ -47,9 +43,7 @@ annotated_text(
 
 
 
-'''
-### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP
-'''
+'### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP'
 annotated_text(
     ("Any", "Industrie", "#8ef"),
     ("annotated", "adj 🧾", "#faa"),
@@ -59,18 +53,16 @@ annotated_text(
     ("thing", "noun", "#afa")
 )
 '''
+[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)
+ [Quickstart SAP](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
 2. Accéder aux données sur Snowflake en SQL
 3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
 4. Visualiser les résultats avec Tableau
-- [Video 23 min](https://drive.google.com/file/d/16qtPbJqYT4Rq7m7dWyiH-L1bcXkrtk6t/view?usp=share_link)
-- [Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)
-- [Quickstart SAP](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
 '''
+st.video('https://youtu.be/ycAjGAZDaM4')
 
-'''
-### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.
-'''
+'''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.''' 
 annotated_text(
     ("Any", "Industrie", "#8ef"),
     ("annotated", "adj 🧾", "#faa"),
@@ -90,9 +82,7 @@ annotated_text(
 '''
 
 
-'''
-### 💊 HL7 
-'''
+'### 💊 HL7 '
 annotated_text(
     ("Healthcare et Life sciences", "Industrie", "#8ef"),
     ("annotated", "adj 🧾", "#faa"),
