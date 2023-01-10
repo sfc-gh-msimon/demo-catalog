@@ -1,7 +1,7 @@
 import streamlit as st
 from annotated_text import annotated_text
 
-st.set_page_config(page_title="Analyste", page_icon="📊")
+st.set_page_config(page_title="Analyste", page_icon="📊",layout="wide")
 
 '#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes'
 annotated_text(
@@ -22,6 +22,12 @@ annotated_text(
 6. Création d'un modèle qui prédit les ventes par jour dans les 90 prochains jours sur base des ventes passées.
 '''
 st.video('https://youtu.be/SZGiYnC20v0')
+col1, col2, col3 = st.columns(3)
+with col1:
+   st.header("A cat")
+   st.image("https://static.streamlit.io/examples/cat.jpg")
+with col2:
+   st.video('https://youtu.be/SZGiYnC20v0')
 
 
 '### 📊 Snowsight'
