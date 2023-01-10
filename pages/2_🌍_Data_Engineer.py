@@ -43,33 +43,57 @@ with col2:
 
 
 
-
-"""
-### 🚲 Administration de base de données, DevOps et création de tableaux de bords chez Citibike
+'### 🚲 Administration de base de données, DevOps et création de tableaux de bords chez Citibike'
+annotated_text(
+    ("Any",                         "Industrie",        "#8ef","#000"),
+    ("Administration",              "Feature",          "#fea","#000"),
+    ("Cloning",                     "Feature",          "#fea","#000"),
+    ("Time travel",                 "Feature",          "#fea","#000"),
+    ("Snowsight",                   "Outil",            "#afa","#000")
+)
+'''
+[Github](https://github.com/snowflakecorp/citibike/wiki/V4_1-Welcome-to-Citibike) - 
+[Quickstart](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/)
 1. Administration de base de données
 2. DevOps : clonage de base de données et masking de données pour les développeurs
-3. création de tableaux de bords sur Snowsight
-- [Video 24 min](https://drive.google.com/file/d/15nViolkbysKCVbDSV1JcmebOKb7XswLB/view?usp=share_link)
-- [Github](https://github.com/snowflakecorp/citibike/wiki/V4_1-Welcome-to-Citibike)
-- [Quickstart Zero to Snowflake](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/)
-"""
+3. Préparation de données et création de tableaux de bords sur Snowsight
+'''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/4jPd8pZS0xw')
 
 
 
-"""
-### 🤝 Créez votre data clean room sur Snowflake 
+'### 🤝 Créer une data clean room sur Snowflake'
+annotated_text(
+    ("Media",               "Industrie",        "#8ef","#000"),
+    ("Row access policy",   "Feature",          "#fea","#000"),
+    ("Data sharing",        "Feature",          "#fea","#000"),
+    ("Stored procedures",   "Feature",          "#fea","#000"),
+    ("Streams&Tasks",       "Feature",          "#fea","#000")
+)
+'''
 1. Introduction aux data clean rooms
 2. Les composants uniques de Snowflake pour créer des data clean rooms : Data sharing, row access policies, stored procedures, streams and tasks.
 3. Créer une data clean room entre deux organisations
-"""
-st.video('https://youtu.be/_0wE0p4vglo')
+'''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/_0wE0p4vglo')
 
 
-"""
-# Healthcare et Life sciences
-### 🧬 Genomics 
+
+'### 🧬 Utiliser le clustering pour accélérer des requêtes sur des données genomics'
+annotated_text(
+    ("Healthcare Life sciences",    "Industrie",        "#8ef","#000"),
+    ("Genomics",     "Données",          "#faa","#000"),
+    ("Automatic Clustering",        "Feature",          "#fea","#000")
+)
+'''
 1. Stocker de grandes quantités de données de gènes dans Snowflake
 2. Joindre des allèles avec des études stockées dans deux tables différentes, afin d'identifier quelles allèles ont potentiellement un effet délétère
 3. Accélérer des requêtes sur de grandes tables grace à l'architecture des micro-partitions de Snowflake (pruning) et au clustering
-- [Video 14 min](https://drive.google.com/file/d/154GzuSZBXUjtSPs_e6LFAWwA9Hg3NoVr/view?usp=share_link)
-"""
+'''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/vi8eG9GY0go')

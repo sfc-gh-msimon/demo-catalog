@@ -91,7 +91,7 @@ with col2:
 
 '### 💊 Utiliser des données HL7 dans des analyses médicales'
 annotated_text(
-    ("Healthcare et Life sciences", "Industrie",    "#8ef","#000"),
+    ("Healthcare Life sciences",    "Industrie",    "#8ef","#000"),
     ("HL7 FHIR",                    "Données",      "#faa","#000"),
     ("Modélisation en SQL",         "Feature",      "#fea","#000"),
     ("Snowsight",                   "Outil",        "#afa","#000"),
