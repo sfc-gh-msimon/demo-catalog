@@ -10,7 +10,7 @@ annotated_text(
     ("CRM Parquet",     "Données",          "#faa","#000"),
     ("Marketplace",     "Feature",          "#fea","#000"),
     ("Snowpark Python", "Feature",          "#fea","#000"),
-    ("Streamlit",       "Front-end",        "#afa","#000")
+    ("Streamlit",       "Outil",            "#afa","#000")
 )
 '''
 [Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
@@ -32,7 +32,7 @@ annotated_text(
     ("Dashboards",      "Feature",          "#afa","#000000"),
     ("Administration",  "Feature",          "#fea","#000000"),
     ("Monitoring",      "Feature",          "#fea","#000000"),
-    ("Snowsight",       "Front-end",        "#8ef","#000000")
+    ("Snowsight",       "Outil",            "#8ef","#000000")
 )
 '''
 [Video 3 min](https://drive.google.com/drive/folders/1VJzhPg5rrDCpwirH2SQta_JzeZudvX4y)
@@ -42,56 +42,61 @@ annotated_text(
 4. Administrer la plateforme Snowflake et auditer les accès aux données
 5. Monitorer l'utilisation de la plateforme 
 '''
-st.video('https://youtu.be/rMXLpGICcyE')
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/rMXLpGICcyE')
 
 
 '### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP'
 annotated_text(
-    ("Any", "Industrie", "#8ef"),
-    ("annotated", "adj 🧾", "#faa"),
-    ("text", "noun", "#afa"),
-    ("you", "pronoun", "#fea"),
-    ("like", "verb", "#8ef"),
-    ("thing", "noun", "#afa")
+    ("Any",                 "Industrie",        "#8ef","#000000"),
+    ("SAP ERP Finance",     "Données",          "#faa","#000"),
+    ("Modélisation en SQL", "Feature",          "#afa","#000000"),
+    ("DBT",                 "Outil",            "#8ef","#000000"),
+    ("Tableau",             "Outil",            "#8ef","#000000")
 )
 '''
 [Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md) - 
-[Quickstart SAP](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
+[Quickstart](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
 2. Accéder aux données sur Snowflake en SQL
 3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
 4. Visualiser les résultats avec Tableau
 '''
-st.video('https://youtu.be/ycAjGAZDaM4')
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/ycAjGAZDaM4')
 
 '''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.''' 
 annotated_text(
-    ("Any", "Industrie", "#8ef"),
-    ("annotated", "adj 🧾", "#faa"),
-    ("text", "noun", "#afa"),
-    ("you", "pronoun", "#fea"),
-    ("like", "verb", "#8ef"),
-    ("thing", "noun", "#afa")
+    ("Any",                 "Industrie",        "#8ef","#000000"),
+    ("COVID-19",            "Données",          "#faa","#000"),
+    ("Climat",              "Données",          "#faa","#000"),
+    ("Marketplace",         "Feature",          "#afa","#000000"),
+    ("Snowsight",           "Outil",            "#8ef","#000000"),
+    ("Dataiku",             "Outil",            "#8ef","#000000")
 )
 '''
+[Quickstart Accelerating Data Science with Snowflake and Dataiku](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)
 1. Créer un tableau de bord dans l'interface Snowsight
 2. Acquérir des données sur la marketplace de Snowflake : climat et COVID-19
 3. Joindre des données internes de vente avec les données acquises sur la marketplace pour mesure l'impact des facteurs externes
 4. Utiliser Dataiku pour créer un modèle de prédiction du désabonnement des clients, sur base de leurs interactions passées
 5. Visualiser le résultat sur une carte dans Dataiku
-- [Video 6min](https://drive.google.com/file/d/15mHw_r2EUxqMyZdvd60SR3KfyKehJy6N/view?usp=share_link)
-- [Quickstart Accelerating Data Science with Snowflake and Dataiku](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)
 '''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/AfGYn2tcDk0')
 
 
 '### 💊 HL7 '
 annotated_text(
     ("Healthcare et Life sciences", "Industrie", "#8ef"),
-    ("annotated", "adj 🧾", "#faa"),
-    ("text", "noun", "#afa"),
-    ("you", "pronoun", "#fea"),
-    ("like", "verb", "#8ef"),
-    ("thing", "noun", "#afa")
+    ("Any",                 "Industrie",        "#8ef","#000000"),
+    ("SAP ERP Finance",     "Données",          "#faa","#000"),
+    ("Modélisation en SQL", "Feature",          "#afa","#000000"),
+    ("DBT",                 "Outil",            "#8ef","#000000"),
+    ("Tableau",             "Outil",            "#8ef","#000000")
 )
 '''
 1. importez des données au format HL7 dans Snowflake
