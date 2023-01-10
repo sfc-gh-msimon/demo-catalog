@@ -1,14 +1,21 @@
 import streamlit as st
 
-st.set_page_config(page_title="Data engineer", page_icon="🌍")
+st.set_page_config(page_title="Data engineer", page_icon="🌍",layout="wide")
 st.header("Data engineer")
 
 
-"""
-# Toutes industries
-#### 🔧 Join elimination
-- [Video 3 min](https://drive.google.com/file/d/16qU_2BrwPqBnIpZ6J0NtZDKCRqWLBn6B/view?usp=share_link)
-"""
+'#### 🔧 Join elimination'
+annotated_text(
+    ("Any",             "Industrie",        "#8ef","#000"),
+    ("Join elimination","Feature",          "#fea","#000")
+)
+'''
+Dans certains cas, une jointure sur une colonne clé peut faire référence à des tables qui ne sont pas nécessaires pour la jointure. Si vos tables ont des colonnes clés et que vous utilisez et appliquez les contraintes UNIQUE, PRIMARY KEY et FOREIGN KEY, Snowflake peut améliorer les performances des requêtes en [éliminant les jointures](https://docs.snowflake.com/en/user-guide/join-elimination.html) inutiles sur les colonnes clés.
+'''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/QJ0zXosPDQQ')
+
 
 
 """

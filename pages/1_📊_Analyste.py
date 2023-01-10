@@ -51,7 +51,7 @@ with col2:
 annotated_text(
     ("Any",                 "Industrie",        "#8ef","#000"),
     ("SAP ERP Finance",     "Données",          "#faa","#000"),
-    ("Modélisation en SQL", "Feature",          "#afa","#000"),
+    ("Modélisation en SQL", "Feature",          "#fea","#000"),
     ("DBT",                 "Outil",            "#afa","#000"),
     ("Tableau",             "Outil",            "#afa","#000")
 )
@@ -72,7 +72,7 @@ annotated_text(
     ("Retail",              "Industrie",        "#8ef","#000"),
     ("COVID-19",            "Données",          "#faa","#000"),
     ("Climat",              "Données",          "#faa","#000"),
-    ("Marketplace",         "Feature",          "#afa","#000"),
+    ("Marketplace",         "Feature",          "#fea","#000"),
     ("Snowsight",           "Outil",            "#afa","#000"),
     ("Dataiku",             "Outil",            "#afa","#000")
 )
@@ -93,7 +93,7 @@ with col2:
 annotated_text(
     ("Healthcare et Life sciences", "Industrie",    "#8ef","#000"),
     ("HL7 FHIR",                    "Données",      "#faa","#000"),
-    ("Modélisation en SQL",         "Feature",      "#afa","#000"),
+    ("Modélisation en SQL",         "Feature",      "#fea","#000"),
     ("Snowsight",                   "Outil",        "#afa","#000"),
     ("Tableau",                     "Outil",        "#afa","#000")
 )
