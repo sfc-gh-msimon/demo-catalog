@@ -28,11 +28,11 @@ with col2:
 
 '### 📊 Snowsight'
 annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000000"),
-    ("Dashboards",      "Feature",          "#afa","#000000"),
-    ("Administration",  "Feature",          "#fea","#000000"),
-    ("Monitoring",      "Feature",          "#fea","#000000"),
-    ("Snowsight",       "Outil",            "#8ef","#000000")
+    ("Any",             "Industrie",        "#8ef","#000"),
+    ("Dashboards",      "Feature",          "#afa","#000"),
+    ("Administration",  "Feature",          "#fea","#000"),
+    ("Monitoring",      "Feature",          "#fea","#000"),
+    ("Snowsight",       "Outil",            "#afa","#000")
 )
 '''
 [Video 3 min](https://drive.google.com/drive/folders/1VJzhPg5rrDCpwirH2SQta_JzeZudvX4y)
@@ -49,11 +49,11 @@ with col2:
 
 '### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP'
 annotated_text(
-    ("Any",                 "Industrie",        "#8ef","#000000"),
+    ("Any",                 "Industrie",        "#8ef","#000"),
     ("SAP ERP Finance",     "Données",          "#faa","#000"),
-    ("Modélisation en SQL", "Feature",          "#afa","#000000"),
-    ("DBT",                 "Outil",            "#8ef","#000000"),
-    ("Tableau",             "Outil",            "#8ef","#000000")
+    ("Modélisation en SQL", "Feature",          "#afa","#000"),
+    ("DBT",                 "Outil",            "#afa","#000"),
+    ("Tableau",             "Outil",            "#afa","#000")
 )
 '''
 [Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md) - 
@@ -69,15 +69,15 @@ with col2:
 
 '''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.''' 
 annotated_text(
-    ("Retail",                 "Industrie",        "#8ef","#000000"),
+    ("Retail",              "Industrie",        "#8ef","#000"),
     ("COVID-19",            "Données",          "#faa","#000"),
     ("Climat",              "Données",          "#faa","#000"),
-    ("Marketplace",         "Feature",          "#afa","#000000"),
-    ("Snowsight",           "Outil",            "#8ef","#000000"),
-    ("Dataiku",             "Outil",            "#8ef","#000000")
+    ("Marketplace",         "Feature",          "#afa","#000"),
+    ("Snowsight",           "Outil",            "#afa","#000"),
+    ("Dataiku",             "Outil",            "#afa","#000")
 )
 '''
-[Quickstart Accelerating Data Science with Snowflake and Dataiku](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)
+[Quickstart](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)
 1. Créer un tableau de bord dans l'interface Snowsight
 2. Acquérir des données sur la marketplace de Snowflake : climat et COVID-19
 3. Joindre des données internes de vente avec les données acquises sur la marketplace pour mesure l'impact des facteurs externes
@@ -89,17 +89,19 @@ with col2:
    st.video('https://youtu.be/AfGYn2tcDk0')
 
 
-'### 💊 HL7 '
+'### 💊 Utiliser des données HL7 dans des analyses médicales'
 annotated_text(
-    ("Healthcare et Life sciences", "Industrie", "#8ef"),
-    ("Any",                 "Industrie",        "#8ef","#000000"),
-    ("SAP ERP Finance",     "Données",          "#faa","#000"),
-    ("Modélisation en SQL", "Feature",          "#afa","#000000"),
-    ("DBT",                 "Outil",            "#8ef","#000000"),
-    ("Tableau",             "Outil",            "#8ef","#000000")
+    ("Healthcare et Life sciences", "Industrie",    "#8ef","#000"),
+    ("HL7 FHIR",                    "Données",      "#faa","#000"),
+    ("Modélisation en SQL",         "Feature",      "#afa","#000"),
+    ("Snowsight",                   "Outil",        "#afa","#000"),
+    ("Tableau",                     "Outil",        "#afa","#000")
 )
 '''
-1. importez des données au format HL7 dans Snowflake
-2. Utilisez toutes les données directement dans des analyses et tableaux de bord
-- [Video 8min](https://drive.google.com/file/d/15lwfnn-fWdOQu4nadMtOqL5Vj385uUMG/view?usp=share_link)
+1. Importer et stocker des données au format HL7 FHIR dans Snowflake
+2. Modéliser des données médicales au format HL7 FHIR en SQL
+2. Utiliser ces les données directement dans des analyses et tableaux de bord
 '''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/s5VVT8X9dvE')
