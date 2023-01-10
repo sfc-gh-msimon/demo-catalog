@@ -6,7 +6,8 @@ st.set_page_config(page_title="Analyste", page_icon="📊")
 '#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes'
 annotated_text(
     ("Any",             "Industrie",        "#8ef","#000000"),
-    ("PDF",             "Non-structuré",    "#faa","#000000"),
+    ("Factures PDF",    "Données",          "#faa","#000000"),
+    ("CRM Parquet",     "Données",          "#faa","#000000"),
     ("Marketplace",     "Feature",          "#afa","#000000"),
     ("Snowpark Python", "Feature",          "#fea","#000000"),
     ("Streamlit",       "Front-end",        "#8ef","#000000")
@@ -25,12 +26,11 @@ st.video('https://youtu.be/SZGiYnC20v0')
 
 '### 📊 Snowsight'
 annotated_text(
-    ("Any", "Industrie", "#8ef"),
-    ("annotated", "adj 🧾", "#faa"),
-    ("text", "noun", "#afa"),
-    ("you", "pronoun", "#fea"),
-    ("like", "verb", "#8ef"),
-    ("thing", "noun", "#afa")
+    ("Any",             "Industrie",        "#8ef","#000000"),
+    ("Dashboards",      "Feature",          "#afa","#000000"),
+    ("Administration",  "Feature",          "#fea","#000000"),
+    ("Monitoring",      "Feature",          "#fea","#000000"),
+    ("Snowsight",       "Front-end",        "#8ef","#000000")
 )
 '''
 [Video 3 min](https://drive.google.com/drive/folders/1VJzhPg5rrDCpwirH2SQta_JzeZudvX4y)
@@ -53,7 +53,7 @@ annotated_text(
     ("thing", "noun", "#afa")
 )
 '''
-[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)  
+[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md) - 
 [Quickstart SAP](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
 2. Accéder aux données sur Snowflake en SQL
