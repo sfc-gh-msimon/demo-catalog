@@ -2,8 +2,6 @@ import streamlit as st
 from annotated_text import annotated_text
 
 st.set_page_config(page_title="Data scientist", page_icon="⚛️",layout="wide")
-st.header("Data scientist")
-
 
 """
 # Toutes industries
