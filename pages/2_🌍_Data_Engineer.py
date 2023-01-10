@@ -2,8 +2,6 @@ import streamlit as st
 from annotated_text import annotated_text
 
 st.set_page_config(page_title="Data engineer", page_icon="🌍",layout="wide")
-st.header("Data engineer")
-
 
 '#### 🔧 Join elimination'
 annotated_text(
@@ -11,7 +9,8 @@ annotated_text(
     ("Join elimination","Feature",          "#fea","#000")
 )
 '''
-Dans certains cas, une jointure sur une colonne clé peut faire référence à des tables qui ne sont pas nécessaires pour la jointure. Si vos tables ont des colonnes clés et que vous utilisez et appliquez les contraintes UNIQUE, PRIMARY KEY et FOREIGN KEY, Snowflake peut améliorer les performances des requêtes en [éliminant les jointures](https://docs.snowflake.com/en/user-guide/join-elimination.html) inutiles sur les colonnes clés.
+Dans certains cas, une jointure sur une colonne clé peut faire référence à des tables qui ne sont pas nécessaires pour cette jointure. 
+Si vos tables ont des colonnes clés et que vous appliquez les contraintes UNIQUE, PRIMARY KEY et FOREIGN KEY, Snowflake peut améliorer les performances des requêtes en [éliminant les jointures](https://docs.snowflake.com/en/user-guide/join-elimination.html) inutiles sur les colonnes clés.
 '''
 col1, col2, col3 = st.columns(3)
 with col2:
@@ -20,9 +19,29 @@ with col2:
 
 
 """
-### 🏎 Performance optimization
+### 
 - [Video 18 min](https://drive.google.com/file/d/16vgQ-5IkT2bPaxvnqzEOs9kbc_tw-eQt/view?usp=share_link)
 """
+
+'#### 🏎 Performance optimization'
+annotated_text(
+    ("Any",                         "Industrie",        "#8ef","#000"),
+    ("Automatic clustering",        "Feature",          "#fea","#000"),
+    ("Materialized views",          "Feature",          "#fea","#000"),
+    ("Search optimization service", "Feature",          "#fea","#000")
+)
+'''
+1. L'architecture de Snowflake
+2. Le scaling sur Snowflake
+3. Comment déterminer la taille optimale des virtual warehouses
+4. Les micro-partitions sur Snowflake
+5. Les services de Snowflake pour optimiser les performances : Automatic Clustering, Materialized views, Search Optimization Service
+'''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/N-ifoTHtFbU')
+
+
 
 
 """

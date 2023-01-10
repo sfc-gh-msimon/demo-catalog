@@ -29,7 +29,7 @@ with col2:
 '### 📊 Snowsight'
 annotated_text(
     ("Any",             "Industrie",        "#8ef","#000"),
-    ("Dashboards",      "Feature",          "#afa","#000"),
+    ("Dashboards",      "Feature",          "#fea","#000"),
     ("Administration",  "Feature",          "#fea","#000"),
     ("Monitoring",      "Feature",          "#fea","#000"),
     ("Snowsight",       "Outil",            "#afa","#000")

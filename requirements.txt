@@ -1,4 +1,3 @@
 # requirements.txt
-snowflake-connector-python
 streamlit
 st-annotated-text
