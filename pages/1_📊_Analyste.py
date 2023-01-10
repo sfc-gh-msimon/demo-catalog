@@ -69,7 +69,7 @@ with col2:
 
 '''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.''' 
 annotated_text(
-    ("Any",                 "Industrie",        "#8ef","#000000"),
+    ("Retail",                 "Industrie",        "#8ef","#000000"),
     ("COVID-19",            "Données",          "#faa","#000"),
     ("Climat",              "Données",          "#faa","#000"),
     ("Marketplace",         "Feature",          "#afa","#000000"),
