@@ -31,6 +31,7 @@ annotated_text(
     ("Jupyter notebook",     "Outil",            "#afa","#000")
 )
 '''
+[Github](https://github.com/snowflakecorp/snowpark-python-xgboost-realestate)
 1. Sur base d'une liste d'annonces immobilières de ventes et locations en France, prédire un prix de location pour chaque annonce de vente
 2. Calculer la rentabilité de chaque annonce de vente (prix de location estimé / prix d'achat du bien)
 3. Visualiser les résultats dans une application Streamlit
@@ -49,6 +50,8 @@ annotated_text(
     ("Hex",             "Outil",            "#afa","#000")
 )
 '''
+[Hex notebook](https://app.hex.tech/snowflake/hex/d264214a-09cc-40e4-b980-a294ff3114bc/draft/logic) - 
+[Blog](https://medium.com/snowflake/entity-matching-using-tf-idf-in-snowpark-python-3d1942d4ef19)
 1. Le problèmes des clients qui ont des master data dupliquées dans plusieurs systèmes
 2. Les algorithmes de déduplication, y compris TF-IDF
 3. Implémenter TF-IDF en Python sur Snowpark avec Hex
@@ -68,6 +71,8 @@ annotated_text(
     ("Jupyter notebook",        "Outil",            "#afa","#000")
 )
 '''
+[Github](https://github.com/Snowflake-Labs/snowpark-python-examples/tree/main/Fraud-Detection-Demo) - 
+[English video](https://www.youtube.com/watch?v=zuBnBpFtUjA&ab_channel=SnowflakeInc.)
 1. Ingérer des données de transaction E-commerce dans Snowflake
 2. Enrichir les transactions avec des données mises à disposition sur la Snowflake Marketplace par IPInfo
 3. Visualiser les transactions passées : quels sont les facteurs suspects des transactions frauduleuses
