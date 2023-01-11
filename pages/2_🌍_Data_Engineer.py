@@ -86,7 +86,7 @@ with col2:
 '### 🧬 Utiliser le clustering pour accélérer des requêtes sur des données genomics'
 annotated_text(
     ("Healthcare Life sciences",    "Industrie",        "#8ef","#000"),
-    ("Genomics",     "Données",          "#faa","#000"),
+    ("Genomics",                    "Données",          "#faa","#000"),
     ("Automatic Clustering",        "Feature",          "#fea","#000")
 )
 '''
