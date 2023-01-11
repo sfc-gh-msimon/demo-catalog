@@ -67,7 +67,7 @@ annotated_text(
     ("Streams&Tasks",       "Feature",          "#fea","#000")
 )
 '''
-[Quickstart](https://quickstarts.snowflake.com/guide/build_a_data_clean_room_in_snowflake_advanced/?index=../..index#0
+[Quickstart](https://quickstarts.snowflake.com/guide/build_a_data_clean_room_in_snowflake_advanced/)
 1. Introduction aux data clean rooms
 2. Les composants uniques de Snowflake pour créer des data clean rooms : Data sharing, row access policies, stored procedures, streams and tasks.
 3. Créer une data clean room entre deux organisations
