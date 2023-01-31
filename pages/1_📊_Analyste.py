@@ -98,6 +98,7 @@ annotated_text(
     ("Tableau",                     "Outil",        "#afa","#000")
 )
 '''
+[Quickstart](https://quickstarts.snowflake.com/guide/processing_hl7_fhir_messages_with_snowflake/)
 1. Importer et stocker des données au format HL7 FHIR dans Snowflake
 2. Modéliser des données médicales au format HL7 FHIR en SQL
 2. Utiliser ces les données directement dans des analyses et tableaux de bord
