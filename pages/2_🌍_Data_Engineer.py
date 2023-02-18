@@ -93,17 +93,18 @@ col1, col2, col3 = st.columns(3)
 with col2:
    st.video('https://youtu.be/vi8eG9GY0go')
 
-'### 🧬 Data Engineering avec Snowpark'
+'### 🏂 Data Engineering avec Snowpark'
 annotated_text(
-    ("Retail",    "Industrie",        "#8ef","#000"),
-    ("Point of sales",                    "Données",          "#faa","#000"),
-    ("Data ingestion",        "Feature",          "#fea","#000"),
-    ("Streams/Tasks",        "Feature",          "#fea","#000"),
-    ("Python UDF/procedure",        "Feature",          "#fea","#000"),
-    ("CI/CD avec GitHub actions",        "Feature",          "#fea","#000")
+    ("Retail",                  "Industrie",        "#8ef","#000"),
+    ("Point of sales",          "Données",          "#faa","#000"),
+    ("Data ingestion",          "Feature",          "#fea","#000"),
+    ("Streams/Tasks",           "Feature",          "#fea","#000"),
+    ("Python UDF/procedure",    "Feature",          "#fea","#000"),
+    ("Github actions",          "Feature",         "#fea","#000")
 
 )
 '''
+[Quickstart](https://quickstarts.snowflake.com/guide/data_engineering_pipelines_with_snowpark_python/)
 1. Apprenez à utiliser Snowpark pour faire du data engineering.
 2. Dans ce quickstarts, nous utilisons des données Point of Sales représentant des ventes partout dans le monde, et nous mesurons l'impact du climat sur les ventes dans chaque ville.
 '''
