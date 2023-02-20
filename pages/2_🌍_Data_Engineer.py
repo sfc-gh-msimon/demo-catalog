@@ -97,10 +97,10 @@ with col2:
 annotated_text(
     ("Retail",                  "Industrie",        "#8ef","#000"),
     ("Point of sales",          "Données",          "#faa","#000"),
-    ("Data ingestion",          "Feature",          "#fea","#000"),
+    ("Elastic compute",         "Feature",          "#fea","#000"),
     ("Streams/Tasks",           "Feature",          "#fea","#000"),
-    ("Python UDF/procedure",    "Feature",          "#fea","#000"),
-    ("Github actions",          "Feature",         "#fea","#000")
+    ("Snowpark Python",         "Feature",          "#fea","#000"),
+    ("Github actions",          "Feature",          "#fea","#000")
 
 )
 '''
