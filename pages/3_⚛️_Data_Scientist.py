@@ -82,3 +82,34 @@ annotated_text(
 col1, col2, col3 = st.columns(3)
 with col2:
    st.video('https://youtu.be/T83FBoTsu4Y')
+
+
+'### 🥷🏻 Détection de fraudes sur des transactions e-commerce'
+annotated_text(
+    ("Evenements",              "Industrie",        "#8ef","#000"),
+    ("Marketing",               "Données",          "#faa","#000"),
+    ("Neustar",                 "Données",          "#faa","#000"),
+    ("Snowpark python",         "Feature",          "#fea","#000"),
+    ("Marketplace",             "Feature",          "#fea","#000"),
+    ("Jupyter notebook",        "Outil",            "#afa","#000"),
+    ("Snowsight",               "Outil",            "#afa","#000"),
+    ("Tableau",                 "Outil",            "#afa","#000")
+)
+'''
+[Github](https://github.com/snowflakecorp/frostbytes/tree/main/Department%20-%20Marketing%20Analytics) 
+1. Comprendre nos clients
+- Explorer les données internes sur les clients
+- Joindre les données internes aux données fournies sur la Marketplace par Neustar
+- Créer des fonctions en SQL pour permettre aux analystes de requêter les données plus facilement
+
+2. Data Science
+- Déterminer le lead score de chaque client pour chaque évènement : entrainer un modèle xgboost, déployer le modèle, expliquer le modèle
+- Déterminer la meilleure action à prendre pour chaque client (téléphone, mail, pas de contact) en fonction de son historique : entrainer un modèle, déployer le modèle, expliquer le modèle, automatiser l'historisation des performances du modèle et le ré-entrainement en cas de drift.
+
+3. Analytics et prise d'action
+- Dashboard corporate dans snowsight pour avoir une vue d'ensemble des ventes et de la performance des évènements, ainsi qu'un drill-down sur les clients
+- Dashboard opérationnel dans Tableau pour donner aux équipes de contact clients les informations nécessaires afin d'offrir le meilleur service (lead score, meilleure action à prendre) et aux équipes marketing pour confectionner des campagnes marketing pour les prochains évènements
+'''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/JtPwHQJ25TA')
