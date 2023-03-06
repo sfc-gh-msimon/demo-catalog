@@ -52,9 +52,9 @@ annotated_text(
 '''
 [Hex notebook](https://app.hex.tech/snowflake/hex/d264214a-09cc-40e4-b980-a294ff3114bc/draft/logic) - 
 [Blog](https://medium.com/snowflake/entity-matching-using-tf-idf-in-snowpark-python-3d1942d4ef19)
-1. Le problèmes des clients qui ont des master data dupliquées dans plusieurs systèmes
-2. Les algorithmes de déduplication, y compris TF-IDF
-3. Implémenter TF-IDF en Python sur Snowpark avec Hex
+1. De nombreuses organisations ont des master data (clients, produits) dupliquées dans plusieurs systèmes.
+2. Utiliser Hex pour se connecter à Snowflake en Python et SQL, pour accéder à une table de clients qui contient des trous et une table de clients complète.
+3. Implémenter un algorithme de déduplication entre le jeu de données complet et celui qui contient des trous. Déduplication avec TF-IDF en Python exécuté sur Snowpark
 '''
 col1, col2, col3 = st.columns(3)
 with col2:
@@ -84,7 +84,7 @@ with col2:
    st.video('https://youtu.be/T83FBoTsu4Y')
 
 
-'### 🥷🏻 Détection de fraudes sur des transactions e-commerce'
+'### 🏎️ Marketing analytics : Transformez vos clients en fans'
 annotated_text(
     ("Evenements",              "Industrie",        "#8ef","#000"),
     ("Marketing",               "Données",          "#faa","#000"),
