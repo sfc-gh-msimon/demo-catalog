@@ -105,6 +105,7 @@ annotated_text(
 )
 '''
 [Quickstart](https://quickstarts.snowflake.com/guide/data_engineering_pipelines_with_snowpark_python/)
+[Webinar](https://resources.snowflake.com/webinars-thought-leadership/snowpark-101-technical-overview-3)
 1. Apprenez à utiliser Snowpark pour faire du data engineering.
 2. Dans ce quickstarts, nous utilisons des données Point of Sales représentant des ventes partout dans le monde, et nous mesurons l'impact du climat sur les ventes dans chaque ville.
 '''
