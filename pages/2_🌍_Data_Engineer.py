@@ -101,7 +101,6 @@ annotated_text(
     ("Streams/Tasks",           "Feature",          "#fea","#000"),
     ("Snowpark Python",         "Feature",          "#fea","#000"),
     ("Github actions",          "Feature",          "#fea","#000")
-
 )
 '''
 [Quickstart](https://quickstarts.snowflake.com/guide/data_engineering_pipelines_with_snowpark_python/)
@@ -112,3 +111,19 @@ annotated_text(
 col1, col2, col3 = st.columns(3)
 with col2:
    st.video('https://youtu.be/beMcZOur-fM')
+
+'### 🏂 Snowflake connector for ServiceNow'
+annotated_text(
+    ("Toutes",                  "Industrie",        "#8ef","#000"),
+    ("Incidents",               "Données",          "#faa","#000"),
+    ("ServiceNow Connector",    "Feature",          "#fea","#000"),
+    ("Native app",              "Feature",          "#fea","#000"),
+    ("Marketplace",             "Feature",          "#fea","#000")
+)
+'''
+[Quickstart](https://quickstarts.snowflake.com/guide/servicenow_to_snowflake_connector/)
+1. Utiliser le Snowflake connector for ServiceNow pour synchroniser 3 tables depuis ServiceNow vers Snowflake.
+'''
+col1, col2, col3 = st.columns(3)
+with col2:
+   st.video('https://youtu.be/jMMCMPHNXDw')
