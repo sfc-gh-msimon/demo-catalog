@@ -15,11 +15,11 @@ st.set_page_config(page_title="Analyste", page_icon="📊",layout="wide")
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
    annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000"),
-    ("Factures PDF",    "Données",          "#faa","#000"),
-    ("CRM Parquet",     "Données",          "#faa","#000"),
-    ("Marketplace",     "Feature",          "#fea","#000"),
-    ("Snowpark Python", "Feature",          "#fea","#000"),
+    ("Any",             "Industrie",        "#8ef","#000"),"  \n",
+    ("Factures PDF",    "Données",          "#faa","#000"),"  \n",
+    ("CRM Parquet",     "Données",          "#faa","#000"),"  \n",
+    ("Marketplace",     "Feature",          "#fea","#000"),"  \n",
+    ("Snowpark Python", "Feature",          "#fea","#000"),"  \n",
     ("Streamlit",       "Outil",            "#afa","#000")
    )
 with col2:
