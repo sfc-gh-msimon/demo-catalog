@@ -3,8 +3,7 @@ from annotated_text import annotated_text
 
 st.set_page_config(page_title="Analyste", page_icon="📊",layout="wide")
 
-'#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes'
-'''
+'''#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes
 1. Stockage de factures au format PDF dans un stage interne de Snowflake
 2. Extraction des informations contenues dans chaque facture (adresse, nom du client, montant de chaque ligne)
 3. Aggrégation des ventes par jour et par adresse
@@ -27,8 +26,7 @@ with col2:
 with col3:
    '[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)'
 
-'### 📊 Snowsight'
-'''
+'''### 📊 Snowsight
 1. Découvrez la nouvelle interface Web de Snowflake : Snowsight
 2. Accéder aux données sur Snowflake en SQL
 3. Créer des graphes et des tableaux de bord sur base de requêtes SQL
@@ -38,7 +36,7 @@ with col3:
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
    annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000"),"   \n",
+    ("Any",             "Industrie",        "#8ef","#000"),"   \n","   \n",
     ("Dashboards",      "Feature",          "#fea","#000"),"   \n",
     ("Administration",  "Feature",          "#fea","#000"),"   \n",
     ("Monitoring",      "Feature",          "#fea","#000"),"   \n",
@@ -50,8 +48,7 @@ with col3:
    '[Video 3 min](https://drive.google.com/drive/folders/1VJzhPg5rrDCpwirH2SQta_JzeZudvX4y)'
 
 
-'### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP'
-'''
+'''### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP
 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
 2. Accéder aux données sur Snowflake en SQL
 3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
@@ -60,7 +57,7 @@ with col3:
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
    annotated_text(
-    ("Any",                 "Industrie",        "#8ef","#000"),"   \n",
+    ("Any",                 "Industrie",        "#8ef","#000"),"   \n","   \n",
     ("SAP ERP Finance",     "Données",          "#faa","#000"),"   \n",
     ("Modélisation en SQL", "Feature",          "#fea","#000"),"   \n",
     ("DBT",                 "Outil",            "#afa","#000"),"   \n",
@@ -71,17 +68,7 @@ with col2:
 with col3:
    '[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)  \n [Quickstart](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)'
 
-'''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.''' 
-annotated_text(
-    ("Retail",              "Industrie",        "#8ef","#000"),
-    ("COVID-19",            "Données",          "#faa","#000"),
-    ("Climat",              "Données",          "#faa","#000"),
-    ("Marketplace",         "Feature",          "#fea","#000"),
-    ("Snowsight",           "Outil",            "#afa","#000"),
-    ("Dataiku",             "Outil",            "#afa","#000")
-)
-'''
-[Quickstart](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)
+'''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.
 1. Créer un tableau de bord dans l'interface Snowsight
 2. Acquérir des données sur la marketplace de Snowflake : climat et COVID-19
 3. Joindre des données internes de vente avec les données acquises sur la marketplace pour mesure l'impact des facteurs externes
@@ -89,8 +76,19 @@ annotated_text(
 5. Visualiser le résultat sur une carte dans Dataiku
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Retail",              "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("COVID-19",            "Données",          "#faa","#000"),"   \n",
+    ("Climat",              "Données",          "#faa","#000"),"   \n",
+    ("Marketplace",         "Feature",          "#fea","#000"),"   \n",
+    ("Snowsight",           "Outil",            "#afa","#000"),"   \n",
+    ("Dataiku",             "Outil",            "#afa","#000")
+   )
 with col2:
    st.video('https://youtu.be/AfGYn2tcDk0')
+with col3:
+   '[Quickstart](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)'
 
 
 '### 💊 Utiliser des données HL7 dans des analyses médicales'
