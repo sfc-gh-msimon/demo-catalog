@@ -15,8 +15,7 @@ with col1:
     )
 with col2:
    st.video('https://youtu.be/QJ0zXosPDQQ')
-with col3:
-   '[Documentation : Join elimination](https://docs.snowflake.com/en/user-guide/join-elimination)'
+
 
 '''#### 🏎 Performance optimization'
 1. L'architecture de Snowflake
@@ -35,98 +34,96 @@ with col1:
     )
 with col2:
    st.video('https://youtu.be/N-ifoTHtFbU')
-with col3:
-   '[Documentation : Search optimization](https://docs.snowflake.com/en/user-guide/search-optimization-service    \n  [Documentation : Materialized views](https://docs.snowflake.com/en/user-guide/views-materialized)'
 
 
-
-'### 🚲 Administration de base de données, DevOps et création de tableaux de bords chez Citibike'
-annotated_text(
-    ("Any",                         "Industrie",        "#8ef","#000"),
-    ("Administration",              "Feature",          "#fea","#000"),
-    ("Cloning",                     "Feature",          "#fea","#000"),
-    ("Time travel",                 "Feature",          "#fea","#000"),
-    ("Snowsight",                   "Outil",            "#afa","#000")
-)
-'''
-[Github](https://github.com/snowflakecorp/citibike/wiki/V4_1-Welcome-to-Citibike) - 
-[Quickstart](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/)
+'''### 🚲 Administration de base de données, DevOps et création de tableaux de bords chez Citibike
 1. Administration de base de données
 2. DevOps : clonage de base de données et masking de données pour les développeurs
 3. Préparation de données et création de tableaux de bords sur Snowsight
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                         "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Administration",              "Feature",          "#fea","#000"),"   \n",
+    ("Cloning",                     "Feature",          "#fea","#000"),"   \n",
+    ("Time travel",                 "Feature",          "#fea","#000"),"   \n",
+    ("Snowsight",                   "Outil",            "#afa","#000")
+    )
 with col2:
    st.video('https://youtu.be/4jPd8pZS0xw')
+with col3:
+   '[Github](https://github.com/snowflakecorp/citibike/wiki/V4_1-Welcome-to-Citibike)    \n [Quickstart](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/)'
 
 
 
-'### 🤝 Créer une data clean room sur Snowflake'
-annotated_text(
-    ("Media",               "Industrie",        "#8ef","#000"),
-    ("Row access policy",   "Feature",          "#fea","#000"),
-    ("Data sharing",        "Feature",          "#fea","#000"),
-    ("Stored procedures",   "Feature",          "#fea","#000"),
-    ("Streams&Tasks",       "Feature",          "#fea","#000")
-)
-'''
-[Quickstart](https://quickstarts.snowflake.com/guide/build_a_data_clean_room_in_snowflake_advanced/)
+'''### 🤝 Créer une data clean room sur Snowflake
 1. Introduction aux data clean rooms
 2. Les composants uniques de Snowflake pour créer des data clean rooms : Data sharing, row access policies, stored procedures, streams and tasks.
 3. Créer une data clean room entre deux organisations
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Media",               "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Row access policy",   "Feature",          "#fea","#000"),"   \n",
+    ("Data sharing",        "Feature",          "#fea","#000"),"   \n",
+    ("Stored procedures",   "Feature",          "#fea","#000"),"   \n",
+    ("Streams&Tasks",       "Feature",          "#fea","#000")
+    )
 with col2:
    st.video('https://youtu.be/_0wE0p4vglo')
+with col3:
+    '[Quickstart](https://quickstarts.snowflake.com/guide/build_a_data_clean_room_in_snowflake_advanced/)'
 
 
-
-'### 🧬 Utiliser le clustering pour accélérer des requêtes sur des données genomics'
-annotated_text(
-    ("Healthcare Life sciences",    "Industrie",        "#8ef","#000"),
-    ("Genomics",                    "Données",          "#faa","#000"),
-    ("Automatic Clustering",        "Feature",          "#fea","#000")
-)
-'''
+'''### 🧬 Utiliser le clustering pour accélérer des requêtes sur des données genomics
 1. Stocker de grandes quantités de données de gènes dans Snowflake
 2. Joindre des allèles avec des études stockées dans deux tables différentes, afin d'identifier quelles allèles ont potentiellement un effet délétère
 3. Accélérer des requêtes sur de grandes tables grace à l'architecture des micro-partitions de Snowflake (pruning) et au clustering
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Healthcare Life sciences",    "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Genomics",                    "Données",          "#faa","#000"),"   \n",
+    ("Automatic Clustering",        "Feature",          "#fea","#000")
+    )
 with col2:
    st.video('https://youtu.be/vi8eG9GY0go')
 
-'### 🏂 Data Engineering avec Snowpark'
-annotated_text(
-    ("Retail",                  "Industrie",        "#8ef","#000"),
-    ("Point of sales",          "Données",          "#faa","#000"),
-    ("Elastic compute",         "Feature",          "#fea","#000"),
-    ("Streams/Tasks",           "Feature",          "#fea","#000"),
-    ("Snowpark Python",         "Feature",          "#fea","#000"),
-    ("Github actions",          "Feature",          "#fea","#000")
-)
-'''
-[Quickstart](https://quickstarts.snowflake.com/guide/data_engineering_pipelines_with_snowpark_python/)
-[Webinar](https://resources.snowflake.com/webinars-thought-leadership/snowpark-101-technical-overview-3)
+'''### 🏂 Data Engineering avec Snowpark
 1. Apprenez à utiliser Snowpark pour faire du data engineering.
 2. Dans ce quickstarts, nous utilisons des données Point of Sales représentant des ventes partout dans le monde, et nous mesurons l'impact du climat sur les ventes dans chaque ville.
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Retail",                  "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Point of sales",          "Données",          "#faa","#000"),"   \n",
+    ("Elastic compute",         "Feature",          "#fea","#000"),"   \n",
+    ("Streams/Tasks",           "Feature",          "#fea","#000"),"   \n",
+    ("Snowpark Python",         "Feature",          "#fea","#000"),"   \n",
+    ("Github actions",          "Feature",          "#fea","#000")
+    )
 with col2:
    st.video('https://youtu.be/beMcZOur-fM')
+with col3:
+   '[Quickstart](https://quickstarts.snowflake.com/guide/data_engineering_pipelines_with_snowpark_python/)   \n [Webinar](https://resources.snowflake.com/webinars-thought-leadership/snowpark-101-technical-overview-3)'
 
-'### 🏂 Snowflake connector for ServiceNow'
-annotated_text(
-    ("Toutes",                  "Industrie",        "#8ef","#000"),
-    ("Incidents",               "Données",          "#faa","#000"),
-    ("ServiceNow Connector",    "Feature",          "#fea","#000"),
-    ("Native app",              "Feature",          "#fea","#000"),
-    ("Marketplace",             "Feature",          "#fea","#000")
-)
-'''
-[Quickstart](https://quickstarts.snowflake.com/guide/servicenow_to_snowflake_connector/)
+'''### 🏂 Snowflake connector for ServiceNow
 1. Utiliser le Snowflake connector for ServiceNow pour synchroniser 3 tables depuis ServiceNow vers Snowflake.
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Toutes",                  "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Incidents",               "Données",          "#faa","#000"),"   \n",
+    ("ServiceNow Connector",    "Feature",          "#fea","#000"),"   \n",
+    ("Native app",              "Feature",          "#fea","#000"),"   \n",
+    ("Marketplace",             "Feature",          "#fea","#000")
+    )
 with col2:
    st.video('https://youtu.be/jMMCMPHNXDw')
+with col3:
+   '[Quickstart](https://quickstarts.snowflake.com/guide/servicenow_to_snowflake_connector/)'
