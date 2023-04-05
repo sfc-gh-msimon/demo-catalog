@@ -16,7 +16,7 @@ annotated_text(
 2. Créer des fonctions en local et les exécuter sur Snowflake
 3. Créer une régression linéaire pour préduire le nombre de films produits annuellement
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/_peXDwdEpXA')
 
@@ -37,7 +37,7 @@ annotated_text(
 3. Visualiser les résultats dans une application Streamlit
 4. Explorer les résultats par région pour trouver les annonces les plus rentables !
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/AXeOTxJo_78')
 
@@ -56,7 +56,7 @@ annotated_text(
 2. Utiliser Hex pour se connecter à Snowflake en Python et SQL, pour accéder à une table de clients qui contient des trous et une table de clients complète.
 3. Implémenter un algorithme de déduplication entre le jeu de données complet et celui qui contient des trous. Déduplication avec TF-IDF en Python exécuté sur Snowpark
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/4tvesDD5gQg')
 
@@ -79,7 +79,7 @@ annotated_text(
 4. Sur base de résultats passés et d'informations sur les adresses IP fournies par IPInfo, créer un modèle de prédiction de fraudes
 5. Exécuter l'inférence en masse sur Snowflake
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/T83FBoTsu4Y')
 
@@ -110,6 +110,6 @@ annotated_text(
 - Dashboard corporate dans snowsight pour avoir une vue d'ensemble des ventes et de la performance des évènements, ainsi qu'un drill-down sur les clients
 - Dashboard opérationnel dans Tableau pour donner aux équipes de contact clients les informations nécessaires afin d'offrir le meilleur service (lead score, meilleure action à prendre) et aux équipes marketing pour confectionner des campagnes marketing pour les prochains évènements
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/JtPwHQJ25TA')

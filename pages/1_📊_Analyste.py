@@ -42,7 +42,7 @@ annotated_text(
 4. Administrer la plateforme Snowflake et auditer les accès aux données
 5. Monitorer l'utilisation de la plateforme 
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/rMXLpGICcyE')
 
@@ -63,7 +63,7 @@ annotated_text(
 3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
 4. Visualiser les résultats avec Tableau
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/ycAjGAZDaM4')
 
@@ -84,7 +84,7 @@ annotated_text(
 4. Utiliser Dataiku pour créer un modèle de prédiction du désabonnement des clients, sur base de leurs interactions passées
 5. Visualiser le résultat sur une carte dans Dataiku
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/AfGYn2tcDk0')
 
@@ -103,6 +103,6 @@ annotated_text(
 2. Modéliser des données médicales au format HL7 FHIR en SQL
 2. Utiliser ces les données directement dans des analyses et tableaux de bord
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/s5VVT8X9dvE')

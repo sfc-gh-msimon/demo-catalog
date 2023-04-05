@@ -12,7 +12,7 @@ annotated_text(
 Dans certains cas, une jointure sur une colonne clé peut faire référence à des tables qui ne sont pas nécessaires pour cette jointure. 
 Si vos tables ont des colonnes clés et que vous appliquez les contraintes UNIQUE, PRIMARY KEY et FOREIGN KEY, Snowflake peut améliorer les performances des requêtes en [éliminant les jointures](https://docs.snowflake.com/en/user-guide/join-elimination.html) inutiles sur les colonnes clés.
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/QJ0zXosPDQQ')
 
@@ -31,7 +31,7 @@ annotated_text(
 4. Les micro-partitions sur Snowflake
 5. Les services de Snowflake pour optimiser les performances : Automatic Clustering, Materialized views, Search Optimization Service
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/N-ifoTHtFbU')
 
@@ -52,7 +52,7 @@ annotated_text(
 2. DevOps : clonage de base de données et masking de données pour les développeurs
 3. Préparation de données et création de tableaux de bords sur Snowsight
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/4jPd8pZS0xw')
 
@@ -72,7 +72,7 @@ annotated_text(
 2. Les composants uniques de Snowflake pour créer des data clean rooms : Data sharing, row access policies, stored procedures, streams and tasks.
 3. Créer une data clean room entre deux organisations
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/_0wE0p4vglo')
 
@@ -89,7 +89,7 @@ annotated_text(
 2. Joindre des allèles avec des études stockées dans deux tables différentes, afin d'identifier quelles allèles ont potentiellement un effet délétère
 3. Accélérer des requêtes sur de grandes tables grace à l'architecture des micro-partitions de Snowflake (pruning) et au clustering
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/vi8eG9GY0go')
 
@@ -108,7 +108,7 @@ annotated_text(
 1. Apprenez à utiliser Snowpark pour faire du data engineering.
 2. Dans ce quickstarts, nous utilisons des données Point of Sales représentant des ventes partout dans le monde, et nous mesurons l'impact du climat sur les ventes dans chaque ville.
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/beMcZOur-fM')
 
@@ -124,6 +124,6 @@ annotated_text(
 [Quickstart](https://quickstarts.snowflake.com/guide/servicenow_to_snowflake_connector/)
 1. Utiliser le Snowflake connector for ServiceNow pour synchroniser 3 tables depuis ServiceNow vers Snowflake.
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/jMMCMPHNXDw')
