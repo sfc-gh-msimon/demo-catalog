@@ -4,16 +4,7 @@ from annotated_text import annotated_text
 st.set_page_config(page_title="Analyste", page_icon="📊",layout="wide")
 
 '#### 🧾 Extraction des informations contenues dans des factures en PDF, analyse des ventes et prédiction des ventes'
-annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000"),
-    ("Factures PDF",    "Données",          "#faa","#000"),
-    ("CRM Parquet",     "Données",          "#faa","#000"),
-    ("Marketplace",     "Feature",          "#fea","#000"),
-    ("Snowpark Python", "Feature",          "#fea","#000"),
-    ("Streamlit",       "Outil",            "#afa","#000")
-)
 '''
-[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)
 1. Stockage de factures au format PDF dans un stage interne de Snowflake
 2. Extraction des informations contenues dans chaque facture (adresse, nom du client, montant de chaque ligne)
 3. Aggrégation des ventes par jour et par adresse
@@ -23,10 +14,18 @@ annotated_text(
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
-   '[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)'
+   annotated_text(
+    ("Any",             "Industrie",        "#8ef","#000"),
+    ("Factures PDF",    "Données",          "#faa","#000"),
+    ("CRM Parquet",     "Données",          "#faa","#000"),
+    ("Marketplace",     "Feature",          "#fea","#000"),
+    ("Snowpark Python", "Feature",          "#fea","#000"),
+    ("Streamlit",       "Outil",            "#afa","#000")
+   )
 with col2:
    st.video('https://youtu.be/SZGiYnC20v0')
-
+with col3:
+   '[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)'
 
 '### 📊 Snowsight'
 annotated_text(
