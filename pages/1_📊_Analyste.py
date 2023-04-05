@@ -91,20 +91,21 @@ with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)'
 
 
-'### 💊 Utiliser des données HL7 dans des analyses médicales'
-annotated_text(
-    ("Healthcare Life sciences",    "Industrie",    "#8ef","#000"),
-    ("HL7 FHIR",                    "Données",      "#faa","#000"),
-    ("Modélisation en SQL",         "Feature",      "#fea","#000"),
-    ("Snowsight",                   "Outil",        "#afa","#000"),
-    ("Tableau",                     "Outil",        "#afa","#000")
-)
-'''
-[Quickstart](https://quickstarts.snowflake.com/guide/processing_hl7_fhir_messages_with_snowflake/)
+'''### 💊 Utiliser des données HL7 dans des analyses médicales'
 1. Importer et stocker des données au format HL7 FHIR dans Snowflake
 2. Modéliser des données médicales au format HL7 FHIR en SQL
 2. Utiliser ces les données directement dans des analyses et tableaux de bord
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Healthcare Life sciences",    "Industrie",    "#8ef","#000"),"   \n","   \n",
+    ("HL7 FHIR",                    "Données",      "#faa","#000"),"   \n",
+    ("Modélisation en SQL",         "Feature",      "#fea","#000"),"   \n",
+    ("Snowsight",                   "Outil",        "#afa","#000"),"   \n",
+    ("Tableau",                     "Outil",        "#afa","#000")
+   )
 with col2:
    st.video('https://youtu.be/s5VVT8X9dvE')
+with col3:
+   '[Quickstart](https://quickstarts.snowflake.com/guide/processing_hl7_fhir_messages_with_snowflake/)'

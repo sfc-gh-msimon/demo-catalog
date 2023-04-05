@@ -3,28 +3,22 @@ from annotated_text import annotated_text
 
 st.set_page_config(page_title="Data engineer", page_icon="🌍",layout="wide")
 
-'#### 🔧 Join elimination'
-annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000"),
-    ("Join elimination","Feature",          "#fea","#000")
-)
-'''
+'''#### 🔧 Join elimination
 Dans certains cas, une jointure sur une colonne clé peut faire référence à des tables qui ne sont pas nécessaires pour cette jointure. 
 Si vos tables ont des colonnes clés et que vous appliquez les contraintes UNIQUE, PRIMARY KEY et FOREIGN KEY, Snowflake peut améliorer les performances des requêtes en [éliminant les jointures](https://docs.snowflake.com/en/user-guide/join-elimination.html) inutiles sur les colonnes clés.
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",             "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Join elimination","Feature",          "#fea","#000")
+    )
 with col2:
    st.video('https://youtu.be/QJ0zXosPDQQ')
+with col3:
+   '[Documentation : Join elimination](https://docs.snowflake.com/en/user-guide/join-elimination)'
 
-
-'#### 🏎 Performance optimization'
-annotated_text(
-    ("Any",                         "Industrie",        "#8ef","#000"),
-    ("Automatic clustering",        "Feature",          "#fea","#000"),
-    ("Materialized views",          "Feature",          "#fea","#000"),
-    ("Search optimization service", "Feature",          "#fea","#000")
-)
-'''
+'''#### 🏎 Performance optimization'
 1. L'architecture de Snowflake
 2. Le scaling sur Snowflake
 3. Comment déterminer la taille optimale des virtual warehouses
@@ -32,8 +26,17 @@ annotated_text(
 5. Les services de Snowflake pour optimiser les performances : Automatic Clustering, Materialized views, Search Optimization Service
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                         "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Automatic clustering",        "Feature",          "#fea","#000"),"   \n",
+    ("Materialized views",          "Feature",          "#fea","#000"),"   \n",
+    ("Search optimization service", "Feature",          "#fea","#000")
+    )
 with col2:
    st.video('https://youtu.be/N-ifoTHtFbU')
+with col3:
+   '[Documentation : Search optimization](https://docs.snowflake.com/en/user-guide/search-optimization-service    \n  [Documentation : Materialized views](https://docs.snowflake.com/en/user-guide/views-materialized)'
 
 
 
