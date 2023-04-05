@@ -21,7 +21,7 @@ annotated_text(
 5. Création d'une carte qui joint les ventes par état avec le nombre de cas COVID-19 confirmés par état
 6. Création d'un modèle qui prédit les ventes par jour dans les 90 prochains jours sur base des ventes passées.
 '''
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(([1,2,1]))
 with col2:
    st.video('https://youtu.be/SZGiYnC20v0')
 
