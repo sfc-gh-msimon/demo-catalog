@@ -15,7 +15,7 @@ st.set_page_config(page_title="Analyste", page_icon="📊",layout="wide")
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
    annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000"),"   \n",
+    ("Any",             "Industrie",        "#8ef","#000"),"   \n","   \n",
     ("Factures PDF",    "Données",          "#faa","#000"),"   \n",
     ("CRM Parquet",     "Données",          "#faa","#000"),"   \n",
     ("Marketplace",     "Feature",          "#fea","#000"),"   \n",
@@ -51,24 +51,25 @@ with col3:
 
 
 '### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP'
-annotated_text(
-    ("Any",                 "Industrie",        "#8ef","#000"),
-    ("SAP ERP Finance",     "Données",          "#faa","#000"),
-    ("Modélisation en SQL", "Feature",          "#fea","#000"),
-    ("DBT",                 "Outil",            "#afa","#000"),
-    ("Tableau",             "Outil",            "#afa","#000")
-)
 '''
-[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md) - 
-[Quickstart](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)
 1. Extraire des données de systèmes SAP et les insérer sur Snowflake
 2. Accéder aux données sur Snowflake en SQL
 3. Modéliser les transformations nécessaires avec DBT : calculer le délai moyen de recouvrement 
 4. Visualiser les résultats avec Tableau
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                 "Industrie",        "#8ef","#000"),"   \n",
+    ("SAP ERP Finance",     "Données",          "#faa","#000"),"   \n",
+    ("Modélisation en SQL", "Feature",          "#fea","#000"),"   \n",
+    ("DBT",                 "Outil",            "#afa","#000"),"   \n",
+    ("Tableau",             "Outil",            "#afa","#000")
+   )
 with col2:
    st.video('https://youtu.be/ycAjGAZDaM4')
+with col3:
+   '[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)  \n [Quickstart](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)'
 
 '''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.''' 
 annotated_text(
