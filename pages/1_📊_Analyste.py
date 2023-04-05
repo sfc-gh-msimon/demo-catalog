@@ -15,7 +15,7 @@ st.set_page_config(page_title="Analyste", page_icon="📊",layout="wide")
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
    annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Any",             "Industrie",        "#8ef","#000"),"   \n",
     ("Factures PDF",    "Données",          "#faa","#000"),"   \n",
     ("CRM Parquet",     "Données",          "#faa","#000"),"   \n",
     ("Marketplace",     "Feature",          "#fea","#000"),"   \n",
@@ -28,15 +28,7 @@ with col3:
    '[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)'
 
 '### 📊 Snowsight'
-annotated_text(
-    ("Any",             "Industrie",        "#8ef","#000"),
-    ("Dashboards",      "Feature",          "#fea","#000"),
-    ("Administration",  "Feature",          "#fea","#000"),
-    ("Monitoring",      "Feature",          "#fea","#000"),
-    ("Snowsight",       "Outil",            "#afa","#000")
-)
 '''
-[Video 3 min](https://drive.google.com/drive/folders/1VJzhPg5rrDCpwirH2SQta_JzeZudvX4y)
 1. Découvrez la nouvelle interface Web de Snowflake : Snowsight
 2. Accéder aux données sur Snowflake en SQL
 3. Créer des graphes et des tableaux de bord sur base de requêtes SQL
@@ -44,8 +36,18 @@ annotated_text(
 5. Monitorer l'utilisation de la plateforme 
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",             "Industrie",        "#8ef","#000"),"   \n",
+    ("Dashboards",      "Feature",          "#fea","#000"),"   \n",
+    ("Administration",  "Feature",          "#fea","#000"),"   \n",
+    ("Monitoring",      "Feature",          "#fea","#000"),"   \n",
+    ("Snowsight",       "Outil",            "#afa","#000")
+   )
 with col2:
    st.video('https://youtu.be/rMXLpGICcyE')
+with col3:
+   '[Video 3 min](https://drive.google.com/drive/folders/1VJzhPg5rrDCpwirH2SQta_JzeZudvX4y)'
 
 
 '### 💵 Calcul du délai moyen de recouvrement, et des impayés sur base de données SAP'
