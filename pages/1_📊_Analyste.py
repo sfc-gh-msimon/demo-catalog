@@ -22,6 +22,8 @@ annotated_text(
 6. Création d'un modèle qui prédit les ventes par jour dans les 90 prochains jours sur base des ventes passées.
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   '[Github](https://github.com/sfc-gh-pneedleman/snowflake_lakehouse)'
 with col2:
    st.video('https://youtu.be/SZGiYnC20v0')
 
