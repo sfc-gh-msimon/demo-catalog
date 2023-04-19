@@ -24,3 +24,4 @@ Chaque démo est présentée en vidéo et peut être accompagnée de scripts sur
 [contact](mailto:maxime.simon@snowflake.com)  
 [source sur Github](https://github.com/sfc-gh-msimon/demo-catalog)
 """
+st.video('https://www.youtube.com/watch?v=yBXZqmdVFfI&ab_channel=SnowflakeInc.')
