@@ -17,7 +17,7 @@ with col2:
    st.video('https://youtu.be/QJ0zXosPDQQ')
 
 
-'''#### 🏎 Performance optimization'
+'''#### 🏎 Optimiser la performance sur Snowflake
 1. L'architecture de Snowflake
 2. Le scaling sur Snowflake
 3. Comment déterminer la taille optimale des virtual warehouses

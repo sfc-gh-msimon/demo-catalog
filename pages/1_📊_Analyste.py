@@ -68,7 +68,7 @@ with col2:
 with col3:
    '[Github](https://github.com/snowflakecorp/sfquickstarts-sap-dbt/blob/main/site/sfguides/src/kickstart_sap_to_snowflake/kickstart_sap_to_snowflake.md)  \n [Quickstart](https://snowflakecorp.github.io/sfquickstarts-sap-dbt/#0)'
 
-'''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner.
+'''### ⛅️ Analyser l'impact de facteurs externes(climat et COVID-19) sur les ventes et prédire quels clients vont se désabonner
 1. Créer un tableau de bord dans l'interface Snowsight
 2. Acquérir des données sur la marketplace de Snowflake : climat et COVID-19
 3. Joindre des données internes de vente avec les données acquises sur la marketplace pour mesure l'impact des facteurs externes
@@ -91,10 +91,10 @@ with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/data_science_with_dataiku/)'
 
 
-'''### 💊 Utiliser des données HL7 dans des analyses médicales'
+'''### 💊 Utiliser des données HL7 dans des analyses médicales
 1. Importer et stocker des données au format HL7 FHIR dans Snowflake
 2. Modéliser des données médicales au format HL7 FHIR en SQL
-2. Utiliser ces les données directement dans des analyses et tableaux de bord
+3. Utiliser ces les données directement dans des analyses et tableaux de bord
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
@@ -109,3 +109,28 @@ with col2:
    st.video('https://youtu.be/s5VVT8X9dvE')
 with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/processing_hl7_fhir_messages_with_snowflake/)'
+
+
+'''### 🌐 Partager des données sur Snowflake
+1. Créer des vues et des fonctions sécurisées pour partager des données et du code
+2. Créer un listing afin de partager un produit data à une autre organisation sur Snowflake sans copie
+3. Accéder à des données depuis un autre compte
+4. Limiter l'accès à une partie de la donnée en fonction du consommateur avec une row access policy
+5. Accéder à des données depuis un compte reader
+6. Accéder à des fonctions partagées depuis un autre compte
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                    "Industrie",     "#8ef","#000"),"   \n","   \n",
+    ("CRM",                    "Données",       "#faa","#000"),"   \n",
+    ("Data sharing",           "Feature",       "#fea","#000"),"   \n",
+    ("Code sharing",           "Feature",       "#fea","#000"),"   \n",
+    ("Row access policy",      "Feature",       "#fea","#000"),"   \n",
+    ("Reader account",         "Feature",       "#fea","#000"),"   \n",
+    ("Snowsight",              "Outil",         "#afa","#000"),"   \n"
+   )
+with col2:
+   st.video('https://youtu.be/X5-R_8U-C6U')
+with col3:
+   '[Quickstart](https://quickstarts.snowflake.com/guide/tasty_bytes_zero_to_snowflake_collaboration/)'
