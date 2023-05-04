@@ -111,7 +111,7 @@ with col2:
 with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/data_engineering_pipelines_with_snowpark_python/)   \n [Webinar](https://resources.snowflake.com/webinars-thought-leadership/snowpark-101-technical-overview-3)'
 
-'''### 🏂 Snowflake connector for ServiceNow
+'''### 🧑‍🏭 Snowflake connector for ServiceNow
 1. Utiliser le Snowflake connector for ServiceNow pour synchroniser 3 tables depuis ServiceNow vers Snowflake.
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
@@ -127,3 +127,22 @@ with col2:
    st.video('https://youtu.be/jMMCMPHNXDw')
 with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/servicenow_to_snowflake_connector/)'
+
+
+'''### 📮 Requêter Snowflake via la SQL REST API avec Postman
+1. Enregistrer une clé publique pour un utilisateur sur snowflake
+2. Générer un JWT pour communiquer avec Snowflake de façon sécurisée
+3. Requêter Snowflake via la SQL REST API
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Toutes",                  "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Key/pair authentication", "Feature",          "#fea","#000"),"   \n",
+    ("SQL REST API",            "Feature",          "#fea","#000"),"   \n"
+    )
+with col2:
+   st.video('https://youtu.be/XO0SMvbGbDg')
+with col3:
+   '[Quickstart](https://quickstarts.snowflake.com/guide/a_postman_tutorial_for_snowflake_sql_api)'
+
