@@ -116,3 +116,25 @@ with col2:
    st.video('https://youtu.be/JtPwHQJ25TA')
 with col3:
    '[Github](https://github.com/snowflakecorp/frostbytes/tree/main/Department%20-%20Marketing%20Analytics)'
+
+
+'''### 💸 Prédire le retour sur investissement marketing
+1. Data engineering avec Snowpark Python : préparer des données qui représentent 10 ans d'investissements sur différents canaux de marketing afin de prédire quel canal offre le meilleur retour sur investissement. 
+2. Data pipeline : Créer des tasks qui permettent d'automatiser les transformation de données
+3. Data science avec Snowpark Python : créer un modèle pour identifier l'impact des canaux marketing sur le revenu (régression linéaire)
+4. Accéder au modèle au travers d'une interface streamlit qui permet aux utilisateurs d'exécuter des analyses "what-if ?" : Quel serait l'impact d'un changement de dépenses en marketing sur les revenus pour les prochains mois ?
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                     "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Marketing",               "Données",          "#faa","#000"),"   \n",
+    ("Snowpark python",         "Feature",          "#fea","#000"),"   \n",
+    ("Streamlit",               "Feature",          "#fea","#000"),"   \n",
+    ("Jupyter notebook",        "Outil",            "#afa","#000"),"   \n",
+    ("Snowsight",               "Outil",            "#afa","#000"),"   \n"
+    )
+with col2:
+   st.video('https://youtu.be/wleF5GZpiKo')
+with col3:
+   '[Quickstarts](https://quickstarts.snowflake.com/guide/getting_started_with_dataengineering_ml_using_snowpark_python/)'
