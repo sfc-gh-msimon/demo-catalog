@@ -134,3 +134,19 @@ with col2:
    st.video('https://youtu.be/X5-R_8U-C6U')
 with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/tasty_bytes_zero_to_snowflake_collaboration/)'
+
+'''### 🧙 Requêter Snowflake avec Hex magic
+1. Générer du code SQL automatiquement avec Hex magic
+2. Visualiser des données directement dans un notebook Hex
+3. Corriger et commenter automatiquement le code SQL
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                         "Industrie",     "#8ef","#000"),"   \n","   \n",
+    ("Génération de code",          "Feature",       "#fea","#000"),"   \n",
+    ("Génération de commentaire",   "Feature",       "#fea","#000"),"   \n",
+    ("Hex",                         "Outil",         "#afa","#000"),"   \n"
+   )
+with col2:
+   st.video('https://youtu.be/JhuNaroFK1o')

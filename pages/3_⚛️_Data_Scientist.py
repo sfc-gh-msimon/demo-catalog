@@ -130,7 +130,7 @@ with col1:
     ("Any",                     "Industrie",        "#8ef","#000"),"   \n","   \n",
     ("Marketing",               "Données",          "#faa","#000"),"   \n",
     ("Snowpark python",         "Feature",          "#fea","#000"),"   \n",
-    ("Streamlit",               "Feature",          "#fea","#000"),"   \n",
+    ("Streamlit",               "Outil",            "#afa","#000"),"   \n",
     ("Jupyter notebook",        "Outil",            "#afa","#000"),"   \n",
     ("Snowsight",               "Outil",            "#afa","#000"),"   \n"
     )
