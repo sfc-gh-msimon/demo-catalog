@@ -150,3 +150,21 @@ with col1:
    )
 with col2:
    st.video('https://youtu.be/JhuNaroFK1o')
+
+
+'''### 🎈 Déployez vos applications streamlit sur snowflake
+1. Création d'une app streamlit en python sur snowflake
+2. Partage de l'application à d'autres utilisateurs
+3. Exécuter l'application et monitoring
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                         "Industrie",     "#8ef","#000"),"   \n","   \n",
+    ("Streamlit in snowflake",      "Feature",       "#fea","#000"),"   \n",
+    ("Snowsight",                   "Outil",         "#afa","#000"),"   \n"
+   )
+with col2:
+   st.video('https://youtu.be/GZs1So1G3mc')
+with col3:
+   '[Quickstart](https://quickstarts.snowflake.com/guide/getting_started_with_dataengineering_ml_using_snowpark_python/)'
