@@ -138,3 +138,22 @@ with col2:
    st.video('https://youtu.be/wleF5GZpiKo')
 with col3:
    '[Quickstarts](https://quickstarts.snowflake.com/guide/getting_started_with_dataengineering_ml_using_snowpark_python/)'
+
+'''### 📜 Analyser de larges corpus de texte avec le Natural Language Processing
+1. Utiliser les stages pour stocker des données PDF dans snowflake de façon sécurisée
+2. Créer des fonctions de Natural Language Processing en python pour extraire des informations de larges quantités de texte
+3. Accéder aux PDF stockés sur les stages au travers d'URL sécurisées afin d'extraire les informations
+4. Analyser et visualiser les informations dans snowsight
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                     "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("PDF",                     "Données",          "#faa","#000"),"   \n",
+    ("Snowpark python",         "Feature",          "#fea","#000"),"   \n",
+    ("Snowsight",               "Outil",            "#afa","#000"),"   \n"
+    )
+with col2:
+   st.video('https://youtu.be/8tr1q88NA7Y')
+with col3:
+   '[Blog : Simplify data ingestion with Snowpark Python file access](https://medium.com/snowflake/simplify-data-ingestion-with-snowpark-python-file-access-f2bc0e4cd887)'
