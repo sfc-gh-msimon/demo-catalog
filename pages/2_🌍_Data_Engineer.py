@@ -146,3 +146,21 @@ with col2:
 with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/a_postman_tutorial_for_snowflake_sql_api)'
 
+'''### 📮 Appeler une API REST depuis Snowflake avec une external function
+1. Déployer une lambda sur AWS avec le module Node.js Serverless
+2. Créer une external function dans snowflake qui appelle la lambda sur AWS avec serverless
+3. Utiliser l'external function pour exécuter des appels REST en GET et en POST
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Toutes",                  "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("External Function",       "Feature",          "#fea","#000"),"   \n",
+    ("API Integration",         "Feature",          "#fea","#000"),"   \n"
+    )
+with col2:
+   st.video('https://youtu.be/A7ZWyYazlVU')
+with col3:
+   '[Blog](https://medium.com/starschema-blog/starsnow-http-client-for-snowflake-sql-e1b329293fc6)'
+
+
