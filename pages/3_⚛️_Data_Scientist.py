@@ -157,3 +157,25 @@ with col2:
    st.video('https://youtu.be/8tr1q88NA7Y')
 with col3:
    '[Blog : Simplify data ingestion with Snowpark Python file access](https://medium.com/snowflake/simplify-data-ingestion-with-snowpark-python-file-access-f2bc0e4cd887)'
+
+
+'''### 📜 Analyse de sentiments de tweets en scala
+1. Créer un dataframe en scala qui récupère des données depuis un fichier sur un stage
+2. Créer une UDF en scala pour analyser le sentiment de tweets
+3. Créer une procédure pour automatiser l'analyse de sentiments grace à notre UDF
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Any",                     "Industrie",        "#8ef","#000"),"   \n","   \n",
+    ("Tweets",                  "Données",          "#faa","#000"),"   \n",
+    ("Snowpark scala",          "Feature",          "#fea","#000"),"   \n",
+    ("VS Code",                 "Outil",            "#afa","#000"),"   \n",
+    ("Snowsight",               "Outil",            "#afa","#000"),"   \n"
+    )
+with col2:
+   st.video('https://youtu.be/2vBiD3bH0Ts')
+with col3:
+   '[Quickstarts](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_scala/)'
+
+
