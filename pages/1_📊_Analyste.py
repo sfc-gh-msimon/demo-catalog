@@ -168,3 +168,22 @@ with col2:
    st.video('https://youtu.be/GZs1So1G3mc')
 with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/getting_started_with_dataengineering_ml_using_snowpark_python/)'
+
+'''### ⚡ Prédire le prix de l'électricité avec les fonctions ML-powered de snowflake
+1. Créer un modèle en SQL pour prédire un montant sur base d'une time series
+2. Utiliser le modèle pour prédire les prix de l'électricité
+3. Expliquer les facteurs contribuants au modèle
+4. Détecter et enlever les valeurs considérées comme anomalies dans le dataset
+5. Ajouter des données de climat (et forecast) acquises par le data sharing
+6. Créer une v2 du modèle en SQL pour prédire des montants sur base d'une time series et des données de climat
+7. Expliquer les facteurs contribuants au modèle
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Energie",                     "Industrie",     "#8ef","#000"),"   \n","   \n",
+    ("ML-powered functions",        "Feature",       "#fea","#000"),"   \n",
+    ("Snowsight",                   "Outil",         "#afa","#000"),"   \n"
+   )
+with col2:
+   st.video('https://youtu.be/3H-pShtnOvs')
