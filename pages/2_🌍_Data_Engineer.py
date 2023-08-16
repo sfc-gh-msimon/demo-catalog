@@ -146,15 +146,20 @@ with col2:
 with col3:
    '[Quickstart](https://quickstarts.snowflake.com/guide/a_postman_tutorial_for_snowflake_sql_api)'
 
-'''### 📮 Streaming & Dynamic Tables pour l'analyse d'ordres de bourse
-Chaque utilisateur a des besoins différents en matière de fraicheur de données. Snowflake répond aux besoins d'insertions et transformations de données en batch ou en streaming.
-Dans cette vidéo, j'insère des données en streaming dans snowflake avec une latence de moins de 10 secondes. Ensuite, je transforme les données dans snowflake de façon incrémentale avec une latence de 1 minute.
+'''### 🌊 Streaming & Dynamic Tables pour l'analyse d'ordres de bourse
+Chaque utilisateur a des besoins différents en matière de fraicheur de données. 
+Snowflake répond aux besoins d'insertion et de transformation de données en batch et en streaming.
+Dans cette vidéo, je prends l'exemple d'une analyse d'ordres d'achat et de vente en bourse : il y a une grande quantité d'insertions et de suppressions rapides d'ordres, et il est nécessaire d'analyser les données avec une latence de moins de quelques minutes.
+J'insère des données d'ordres au format JSON en streaming dans snowflake avec une latence de moins de 10 secondes. Ensuite, je transforme les données dans snowflake de façon incrémentale avec une latence de 1 minute.
 
 1. Définir l'architecture : les sources, les transformations et les consommateurs de données
 2. Emettre des données en continu depuis une application java vers snowflake
 3. Insérer ces données dans une table de staging sur snowflake
 4. Créer des dynamic tables qui définissent des transformations sur les données insérées en continu
 5. Protéger les données en les divisant par schéma et en décryptant les données à risque seulement pour les utilisateurs autorisés
+
+Quickstarts pour répliquer par vous-même : https://quickstarts.snowflake.com/guide/CDC_SnowpipeStreaming_DynamicTables
+Best practices pour l'ingestion de données : https://www.snowflake.com/blog/data-ingestion-best-practices-part-three/
 '''
 col1, col2, col3 = st.columns(([1,2,1]))
 with col1:
