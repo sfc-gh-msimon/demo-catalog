@@ -187,3 +187,24 @@ with col1:
    )
 with col2:
    st.video('https://youtu.be/3H-pShtnOvs')
+
+'''### 🐪 Migrer du code existant vers Snowflake : SAP Factory Calendar
+Maintenir, moderniser et migrer le code existant est une problème pour toutes les organisations.
+Dans cette vidéo, nous prenons l'exemple de la fonction workdays_between dans les ERP SAP. Cette fonction se base sur la table TFACS pour calculer le nombre de jours travaillés dans chaque usine.
+Migrer ce code dans une data platform comme snowflake nécessite de comprendre comment la logique a été implémentée il y a des décennies dans les systèmes existants. 
+
+1. La fonction workdays_between
+2. Créer une vue qui affiche les jours travaillés sur base de la table TFACS dans snowflake
+3. Recréer la fonction workdays_between dans snowflake
+'''
+col1, col2, col3 = st.columns(([1,2,1]))
+with col1:
+   annotated_text(
+    ("Manufacturing",               "Industrie",     "#8ef","#000"),"   \n","   \n",
+    ("SQL",                         "Feature",       "#fea","#000"),"   \n",
+    ("Snowsight",                   "Outil",         "#afa","#000"),"   \n"
+   )
+with col2:
+   st.video('https://youtu.be/aCw9QNt3Rfo')
+with col3:
+   '[Blog](https://www.lbreddemann.org/sap-factory-calendar-in-snowflake/)'
